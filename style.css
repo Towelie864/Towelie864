@@ -1,0 +1,199 @@
+@media (max-width: 992px){
+	*{
+		font-size: 12px !important;
+	}
+	#Name2 h1{
+		font-size: 20px !important;
+	}
+	.BlockName *{
+		font-size: 16px !important;
+	}
+	.ThirdHeader *{
+		font-size: 14px !important;
+	}
+	.FifthHeader *{
+		font-size: 14px !important;
+	}
+}
+* {
+	padding: 0; /*Внутренний отступ*/
+	margin:0; /*Внешний отступ*/
+	color:#324AB2; /*Цвет текста*/
+	background-color: #FEF7ED !important;
+}
+#NavHeader,#NavHeader a{
+	display: flex;/*Определение, как должен будет быть показан элемент*/
+	justify-content: space-around; /*Распределение пространства вокруг флекс-элементов*/
+	height: 50px; /*Высота блока*/
+	text-decoration: none; /*Отключение декорации текста*/
+	font-size: 20px;
+}
+#FirstBlock{ /*Первый блок*/
+	display:flex;/*Определение, как должен будет быть показан элемент*/
+	justify-content: center;	
+	align-items: center;
+	padding: 10px; /*Внутренний отступ*/
+}
+#Name2{ /*Заголовок блока*/
+	padding-left: 5vw; /*Внутренний отступ влево*/
+	margin-top: 30px;
+}
+#ImgDog {
+	border: #324AB2; /*Цвет границы блока*/
+	border-radius: 100%; /*Скругление углов границы*/
+	margin-left: 10%; /*Внешний отступ влево*/
+	width: 27vw;
+	height: 27vw;
+}
+
+
+.BlockName{ /*Заголовок блоков*/
+	font-size: 30px; /*Размер шрифта*/
+	text-align: center; 
+	margin-bottom: 15px;
+}
+#SecondMain{ /*Второй блок*/
+	padding: 10px; /*Внутренний отступ*/
+	display: flex; /*Определение, как должен будет быть показан элемент*/
+	margin-left: 15%; /*Внешний отступ влево*/
+}
+#ImgAboutUs{ /*Картинка второго блока*/
+	border: black;
+	border-radius:50%;
+	width: 22.5vw;
+	height: 22.5vw;
+}
+.BlockText{
+	font-size: 18px;	
+	margin-left: 50px; /*Внешний отступ влево*/
+}
+
+
+#ThirdBlock{ /*Третий блок*/
+	display: inline;  /*Определение, как должен будет быть показан элемент*/
+}
+#AboutServices{ 
+	display: flex; /*Определение, как должен будет быть показан элемент*/
+	text-align: center;
+}
+.ThirdHeader{
+	font-size: 20px; /*Размер шрифта*/
+	margin-bottom:30px;
+	padding-top: 20px;
+}
+.ImgThird{
+	border: black; /*Цвет границы*/
+	border-radius:50%; /*Сглаживание углов границы*/
+	margin-bottom: 10px;
+	width: 14vw;
+	height: 14vw;
+}
+.Services{ 
+	padding-right: 15%; /*Внутренний отступ вправо*/
+	padding-left: 15%; /*Внутренний отступ влево*/
+	font-size: 18px;
+}
+.ThirdButton{
+	border-radius: 30px; /*Сглаживание углов границы*/
+	color: white; /*Цвет текста*/
+	background-color:#3A54B4 !important; /*Цвет заднего фона*/
+	text-decoration: none;
+}
+
+
+#FourthBlock{ /*Четвёртый блок*/
+	padding-top: 60px; /*Внутренний отступ*/
+}
+#SliderControls{
+	width: 50vw;
+	height: 30vw;
+	margin: auto;
+}
+.carousel-item img, .carousel-item active img{ /*Слайдер*/
+	height: 30vw;
+}
+.SliderButton{
+	width: 2.6vw;
+}
+
+
+#FifthBlock{ /*Пятый блок*/
+	display: inline;  /*Определение, как должен будет быть показан элемент*/
+}
+#FifthInfo{
+	display: flex; /*Определение, как должен будет быть показан элемент*/
+	justify-content: center; /*Распределение пространства вокруг флекс-элементов*/
+	text-align: center;
+}
+.FifthHeader{
+	font-size: 24px; /*Размер шрифта*/
+	margin-bottom: 5%;
+}
+.ImgFifth{
+	width: 10vw;
+	height: 10vw;
+}
+.feedback{
+	margin: 5% 5% 5% 0%;
+ 	padding-bottom: 15%; /*Внутренний отступ вниз*/
+ 	font-size: 18px;
+}
+
+
+#InputBlock{ /*Отправка отзыва*/
+	display: flex;
+	justify-content: center; 
+}
+.InputFirst{ /*Ввод Имени и почты*/
+	width: 220px;
+	height: 40px;
+	border-radius: 30px;
+	text-align: center;
+	margin-bottom: 10px;
+	border-color: #3A54B4;
+}
+#InputMessage{ /*Ввод отзыва*/
+	width: 450px;
+	height: 80px;
+	border-radius: 30px;
+	text-align: center;
+	margin-bottom: 10px;
+	border-color: #3A54B4;
+}
+#InputButton{ /*Отправка отзыва*/
+	width: 450px; /*Ширина элемента*/
+	height: 50px; 
+	border-radius: 30px;
+	background-color:#3A54B4 !important; /*Цвт заднего фона*/
+	color: white; 
+	margin-bottom: 40px;
+}
+
+
+#footer{ /*Футер сайта*/
+	display: inline-flex;
+	padding-top: 10px;
+	width: 100%;
+	background:  #3A54B4 !important;/*Задний фон*/
+	font-size: 18px;
+}
+#ScheduleFooter, #ScheduleFooter *{
+	padding-left: 10%;
+	background-color: #3A54B4 !important;
+	color: #FEF7ED;
+}
+#ContactInfo *, #ContactInfo{
+	text-align: center;
+	background-color: #3A54B4 !important;
+	color: #FEF7ED;
+}
+.Icon{
+	width: 3vw;
+	height: 3vw;
+}
+#FooterNav *, #FooterNav {	
+	margin: auto;
+	background-color: #3A54B4 !important;
+	color: #FEF7ED;
+	font-size: 18px;
+}
