@@ -201,5 +201,5 @@
 	font-size: 18px;
 }
 #shimai-world{
-	z-index:1 ;	
+	z-index:1 !important;	
 }
