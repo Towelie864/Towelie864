@@ -176,6 +176,7 @@
 	width: 100%;
 	background:  #3A54B4 !important;/*Задний фон*/
 	font-size: 18px;
+	z-index:2 !important;
 }
 #ScheduleFooter, #ScheduleFooter *{
 	padding-left: 10%;
@@ -186,6 +187,7 @@
 	text-align: center;
 	background-color: #3A54B4 !important;
 	color: #FEF7ED;
+	
 }
 .Icon{
 	width: 3vw;
@@ -196,8 +198,8 @@
 	background-color: #3A54B4 !important;
 	color: #FEF7ED;
 	font-size: 18px;
-	z-index:2
+	z-index:2 !important;
 }
 #shimai-world{
-	z-index:1 !important;	
+	z-index:1 ;	
 }
