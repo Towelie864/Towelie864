@@ -196,7 +196,8 @@
 	background-color: #3A54B4 !important;
 	color: #FEF7ED;
 	font-size: 18px;
+	z-index:2
 }
 #shimai-world{
-	z-index:-1 !important;	
+	z-index:1 !important;	
 }
